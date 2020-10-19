@@ -1,0 +1,1 @@
+SELECT MIN(min_duration) AS "Duration of the shortest movie." FROM movies;
