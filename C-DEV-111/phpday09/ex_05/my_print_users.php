@@ -1,34 +1,28 @@
 <?php
 
-    function connect_db($host, $username, $passwd, $port, $db) {
-        try {
-            $connexion = new PDO('mysql:host = $host, dbname=$db, port = $port', $username, $passwd);
-            $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            return $connexion;
-        } catch (PDOException $e) {
-            $log_file = "log.file";
-            echo "PDO ERROR: ".$e->getMessage()." storage in ".$log_file."\n";
-            error_log("PDO ERROR: ".$e->getMessage()." storage in ".$log_file."\n", 3, $log_file);
-        }
-    }
-
     function my_print_users(PDO $con, ...$ids) {
-        foreach($ids as $id) {
+        $valid = false;
+        foreach ($ids as $id) {
             if (!is_int($id))
-                throw new Exception("Invalid id given");
+                throw new Exception("Invalid id given.\n");
+            else {
+                $sql = "SELECT * FROM gecko.users WHERE id=".$id;
+                if (is_array($con->query($sql)) || is_object($con->query($sql))) {
+                    foreach ($con->query($sql) as $row)
+                        if ($row != null) {
+                            $valid = true;
+                            echo $row["name"]."\n";
+                        } else
+                            $valid = false;
+                }
+            }
         }
-        $rq = "SELECT * FROM users";
-        // $id = 1;
-        // $query->bindParam(':id', $id);
-        // echo $query->execute();
-        foreach ($con->query($rq) as $row) {
-            echo $row['name'];
-        }
+        return $valid;
     }
 
     try {
-        $connexion = new PDO('mysql:host = localhost, dbname=gecko', "phpmyadmin", "19Blacky_yg");
-        my_print_users($connexion, 1, 2, 3);
+        $con = new PDO('mysql:host = localhost, dbname=gecko', "phpmyadmin", "19Blacky_yg");
+        var_dump(my_print_users($con, 1));
     } catch (Exception $e) {
         echo $e->getMessage();
     }
