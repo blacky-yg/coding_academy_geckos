@@ -1,1 +1,0 @@
-SELECT CONCAT(UPPER(LEFT(lastname, 1)), LOWER(SUBSTRING(lastname, 2)), '_', UPPER(LEFT(firstname, 1)), LOWER(SUBSTRING(firstname, 2))) AS "Full name" FROM profiles ORDER BY id DESC;

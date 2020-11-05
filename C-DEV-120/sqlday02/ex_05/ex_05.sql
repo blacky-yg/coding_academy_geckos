@@ -1,1 +1,0 @@
-SELECT REPLACE(email, '@machin.com', '@coding-academy.fr') AS "New email addresses" FROM profiles WHERE email LIKE "%machin.com" ORDER BY email DESC;

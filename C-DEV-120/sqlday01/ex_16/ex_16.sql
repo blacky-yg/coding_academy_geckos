@@ -1,1 +1,0 @@
-select {fn MONTHNAME(birthdate)} AS "month of birth" from profiles WHERE id BETWEEN 42 AND 84;
