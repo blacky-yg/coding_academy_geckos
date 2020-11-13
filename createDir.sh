@@ -12,9 +12,9 @@ else
             else
                 if [ $i -lt 10 ]
                 then
-                    mkdir ex_0$i
+                    touch ex_0$i
                 else
-                    mkdir ex_$i
+                    touch ex_$i
                 fi
             fi
     done
