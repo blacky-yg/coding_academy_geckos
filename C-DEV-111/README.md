@@ -1,6 +1,6 @@
 # PHP POOL (C-DEV-111)
 
-## Unit description
+## UNIT DESCRIPTION
 
 You have been able to learn how to use your Linux, the Shell, correctly and start making your first scripts correctly. 
 It is time to continue to advance in programming by focusing on the basics of web technologies.
@@ -19,7 +19,7 @@ At the end of this module you will be able to:
 -> to code in object orientation
 -> understand some of the issues related to web security (SQL requests, connection, upload)
 
-## Skills to be acquired
+## SKILLS TO BE ACQUIRED
 
 - Know how to use the elementary functions
 - Have a correct understanding of PHP7
@@ -34,7 +34,7 @@ At the end of this module you will be able to:
 - Know how to develop in POO
 - Designing a POO site with a clean architecture
 
-## Projects
+## PROJECTS
 
 | Project  | Repository |
 | ------------- | ------------- |

@@ -1,12 +1,12 @@
 # SQL (C-DEV-112)
 
-## Unit description
+## UNIT DESCRIPTION
 
 /!\ Start with a database language /!\
 Learn the basics in SQL with MySQL.
 From connecting to the database, inserting, editing, and deleting data, you will be able to acquire all the necessary databases for a good understanding of MySQL.
 
-## Skills to be acquired
+## SKILLS TO BE ACQUIRED
 
 SQL:
 - SELECT queries
@@ -18,7 +18,7 @@ SQL:
 - Knowledge of LIMIT / ASC / DESC queries
 - Sealing: INNER / LEFT / RIGHT JOIN
 
-## Projects
+## PROJECTS
 
 | Project  | Repository |
 | ------------- | ------------- |

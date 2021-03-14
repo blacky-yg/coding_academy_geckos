@@ -1,6 +1,6 @@
 # Web fundamentals (C-DEV-114)
 
-## Unit description
+## UNIT DESCRIPTION
 
 At the end of this module you will be able to:
 -> to create static and dynamic web pages
@@ -9,11 +9,11 @@ At the end of this module you will be able to:
 -> to create a login/registration page
 -> to carry out a complete CRUD
 
-## Skills to be acquired
+## SKILLS TO BE ACQUIRED
 
 - Web fullstack
 
-## Projects
+## PROJECTS
 
 | Project  | Repository |
 | ------------- | ------------- |

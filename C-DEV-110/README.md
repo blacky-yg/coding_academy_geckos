@@ -14,7 +14,7 @@ As DevOps is intended to be a cross-functional mode of working, those who practi
 
 Some categories are more essential in a DevOps toolchain than others; especially continuous integration (e.g. Jenkins, Gitlab, Bitbucket pipelines) and infrastructure as code (e.g., Terraform, Ansible, Puppet).
 
-## Skills to be acquired
+## SKILLS TO BE ACQUIRED
 
 - CLI
 - Apache web server
@@ -22,7 +22,7 @@ Some categories are more essential in a DevOps toolchain than others; especially
 - Deployment
 - Monitoring
 
-## Projects
+## PROJECTS
 
 | Project  | Repository |
 | ------------- | ------------- |

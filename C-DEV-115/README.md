@@ -1,10 +1,10 @@
 # Javascript (C-DEV-115)
 
-## Unit description
+## UNIT DESCRIPTION
 
 Discover Javascript
 
-## Skills to be acquired
+## SKILLS TO BE ACQUIRED
 
 - Syntax
 - JS CLI
@@ -12,7 +12,7 @@ Discover Javascript
 - JS Browser
 - JS Backend
 
-## Projects
+## PROJECTS
 
 | Project  | Repository |
 | ------------- | ------------- |
